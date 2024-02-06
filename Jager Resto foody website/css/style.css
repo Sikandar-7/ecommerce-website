@@ -1,0 +1,31 @@
+@font-face{
+    src: url('../fonts/Barlow.zip');
+    font-family: barlow;
+}
+
+.menu-bg{
+    background-color: #393c49;
+}
+.input{
+    background-color:#777777;
+    width: 220px;
+    border-radius: 15px;
+    border-color: #777777;
+}
+.font-change{
+    font-size: 3vw;
+    color: white;
+    text-shadow: 3px 3px #393c49;
+    
+}
+.dish-font{
+   text-shadow: 3px 3px #393c49;
+    color: white;
+}
+.header-bg{
+    background-image: url('../images/Bg\ \(1\).png');
+}
+.order-heading{
+    font-size: 2vw;
+    color: white;
+}

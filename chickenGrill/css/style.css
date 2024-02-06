@@ -1,0 +1,34 @@
+@font-face {
+    src: url(../fonts/GrandHotel-Regular.otf);
+    font-family: 'grand';
+}
+.bg1 {
+    background-color: #303030;
+}
+.bg2{
+    background-image: url(../images/orientalBackground.png);
+    background-size: 100%;
+}
+.bg3{
+    background-image: url(../images/title_background.png);
+    background-color: #303030;
+}
+.header_heading {
+    font-size: 7vw;
+    color: #f6cf43;
+    font-family: 'grand';
+}
+.hr1{
+font-family: 'grand';
+font-size: 5vw;
+}
+.hr2{
+    font-family: 'grand';
+    font-size: 3vw;
+    }
+.sub_h{
+    color: white;
+}
+.btn_1{
+    background-color: #f6cf43;
+}

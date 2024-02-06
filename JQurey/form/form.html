@@ -1,0 +1,117 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="../CSS/clickMe.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row ">
+            <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                <div class="fs-2 mt-4">Sign UP</div>
+                <div class=" w-50 text-center m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sed
+                    maxime
+                    eum fuga facilis quis asperiores velit animi cumque praesentium iure </div>
+
+
+                <div class="row shadow m-3">
+                    <div class="row ">
+                        <div class="col-6">
+                            <div class="d-flex flex-column ">
+                                <label for="" class="form-label">First Name</label>
+                                <input type="text" name="" id="" class="form-control" placeholder="Enter Name">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex flex-column ">
+                                <label for="" class="form-label">Father Name</label>
+                                <input type="text" name="" id="" class="form-control" placeholder="Enter Name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-6">
+                            <div class="d-flex flex-column ">
+                                <label for="" class="form-label">Bussiness Email</label>
+                                <input type="text" name="" id="" class="form-control" placeholder="Enter Email">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex flex-column ">
+                                <label for="" class="form-label">Phone Number</label>
+                                <input type="text" name="" id="" class="form-control" placeholder="Enter Number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-6">
+                            <div class="d-flex flex-column ">
+                                <label for="" class="form-label">Roll Number</label>
+                                <input type="text" name="" id="" class="form-control" placeholder="Enter Roll-Number">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex flex-column ">
+                                <label for="" class="form-label">Password</label>
+                                <input type="text" name="" id="" class="form-control" placeholder="Enter Password">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-6">
+                            <div class="d-flex flex-column ">
+                                <label for="" class="form-label">Gender</label>
+                                <input type="text" name="" id="" class="form-control" placeholder="Enter Gender">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex flex-column ">
+                                <label for="" class="form-label">Age</label>
+                                <input type="text" name="" id="" class="form-control" placeholder="Enter Age">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ????????????????????????????????????????????????????????????????? -->
+                    <div class="row">
+                        <div class="col-12">
+                            <button id="bt" type="button" class="b btn btn-warning">Sign Up</button>
+                        </div>
+                    </div>
+                    <!-- ????????????????????????????????????????????????????????????????? -->
+                </div>
+
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+
+        <script src="../js/jquery-3.7.1.js ">
+        </script>
+
+        <script>
+
+            $('#bt').mouseenter(function () {
+                var x = Math.random() * 80;
+                var y = Math.random() * 80;
+                $('#bt').animate({
+                    right: x + '%',
+                    // bottom: y + '%',
+                });
+            });
+
+        </script>
+</body>
+
+</html>
